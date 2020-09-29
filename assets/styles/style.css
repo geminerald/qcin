@@ -84,6 +84,13 @@ p{
     max-height: 100vh;
 }
 
+#intro-header{
+    position: absolute;
+    top:7rem;
+    left: 50%;
+    color: var(--white-col);
+}
+
 .p-img{
     max-height: 7rem;
     float: left;
