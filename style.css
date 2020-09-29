@@ -63,6 +63,12 @@ nav{
 
 }
 
+h1{
+    margin-top: 2rem;
+    margin-left: 10%;
+    color: var(--orange-col);
+}
+
 p{
     width: 80%;
     margin:2rem auto;
