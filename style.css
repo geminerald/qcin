@@ -2,6 +2,7 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -18,7 +19,6 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color:var(--orange-col);
-    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -61,6 +61,11 @@ nav{
     margin: 5px;
     transition: all 0.3s ease;
 
+}
+
+p{
+    width: 80%;
+    margin:2rem auto;
 }
 
 @media screen and (max-width:1068px){
