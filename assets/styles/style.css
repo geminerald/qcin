@@ -89,6 +89,7 @@ p{
     top:7rem;
     left: 50%;
     color: var(--white-col);
+    transition: 2s ease-in-out;
 }
 
 .p-img{
@@ -130,6 +131,14 @@ body{
 
 .nav-active{
     transform:translateX(0%);
+}
+
+.background{
+    opacity: 0;
+}
+
+.gone{
+    display: none;
 }
 
 @keyframes navLinkFade{
