@@ -74,6 +74,22 @@ p{
     margin:2rem auto;
 }
 
+#home{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro-img{
+    max-height: 100vh;
+}
+
+.p-img{
+    max-height: 7rem;
+    float: left;
+    margin:3rem;
+}
+
 @media screen and (max-width:1068px){
     .nav-links{
         width: 50%;
