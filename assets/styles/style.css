@@ -123,7 +123,7 @@ p{
         height:92vh;
         top: 8vh;
         background-color:var(--orange-col);
-        display:flex;
+        display:none;
         flex-direction: column;
         align-items: center;
         width: 75%;
@@ -139,12 +139,10 @@ p{
     }
 }
 
-.burger-active{
-    display: block;
-}
 
 .nav-active{
     transform:translateX(0%);
+    display: flex !important;
 }
 
 .background{
