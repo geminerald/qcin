@@ -2,7 +2,7 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 
 
@@ -107,13 +107,13 @@ p{
 }
 }
 @media screen and (max-width:768px){
-body{
-    overflow-x: hidden;
-}
+    body{
+        overflow-x: hidden;
+    }
 
     .nav-links{
         position: absolute;;
-        right:0px;
+        right:0px;  
         height:92vh;
         top: 8vh;
         background-color:var(--orange-col);
@@ -127,9 +127,14 @@ body{
     .nav-links li{
         opacity: 0;
     }
+    
     .burger{
         display: block;
     }
+}
+
+.burger-active{
+    display: block;
 }
 
 .nav-active{
