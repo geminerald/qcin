@@ -6,6 +6,11 @@
 }
 
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 :root{
     --white-col:#ffffff;
     --orange-col:#FF9200;
