@@ -81,19 +81,24 @@ p{
 }
 
 .intro-img{
-    max-height: 100vh;
+    width: 100%;
 }
 
 #intro-header{
     position: absolute;
-    top:7rem;
-    left: 50%;
+    left:0;
     color: var(--white-col);
     transition: 2s ease-in-out;
 }
 
+.about-section{
+    display: flex;
+    flex-direction: row;
+
+}
+
 .p-img{
-    max-height: 7rem;
+    max-height: 17rem;
     float: left;
     margin:3rem;
 }
