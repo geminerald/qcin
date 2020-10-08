@@ -102,7 +102,9 @@ p{
     justify-content: center;
 }
 
-
+.intro-p{
+    height: 100%;
+}
 
 #intro-header{
     position: absolute;
