@@ -93,6 +93,9 @@ p{
 }
 
 iframe{
+    width: 608px;
+    height: 308px;
+    margin-left: 10%;
 }
 
 .intro-img{
