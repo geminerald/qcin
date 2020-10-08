@@ -84,6 +84,7 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    height: 100vh;
 }
 
 #about{
@@ -91,8 +92,15 @@ p{
     margin: auto;
 }
 
+iframe{
+    margin: 2rem auto;
+}
+
 .intro-img{
     width: 100%;
+    position: absolute;
+    top: 8%;
+    height: 100vh;
 }
 
 .bottom-row{
@@ -104,13 +112,18 @@ p{
 
 .intro-p{
     height: 100%;
-}
-
-#intro-header{
     position: absolute;
     left:0;
     color: var(--white-col);
     transition: 2s ease-in-out;
+    width: 100%;
+}
+
+
+
+#intro-header{
+    color: var(--white-col);
+    width: 100%;
 }
 
 .about-section{
