@@ -30,6 +30,24 @@ footer{
 .navigation{
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.navigation a, .studio-link{
+    color: var(--white-col);
+    text-decoration: none;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social-links a{
+    color: var(--white-col);
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 nav{
