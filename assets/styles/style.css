@@ -1,8 +1,16 @@
+/*
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Piedra', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Kanit&family=Piedra&display=swap');
+
+
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 
 
