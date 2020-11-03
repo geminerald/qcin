@@ -19,6 +19,13 @@ html, body {
 }
 
 
+footer{
+    display: flex;
+    background-color: var(--orange-col);
+    color: var(--white-col);
+    flex-direction: row;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
