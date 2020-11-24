@@ -18,7 +18,7 @@ font-family: 'Piedra', cursive;
     max-width: 2rem;
     background-color: transparent;
     z-index: 3;
-
+    margin-right: 1rem;
 }
 
 html, body {
@@ -42,10 +42,19 @@ footer{
     justify-content: space-evenly;
 }
 
+.copyright{
+    width: 50%;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .navigation{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
+    width: 25%;
+    align-items: center;
 }
 
 .navigation a, .studio-link{
@@ -54,9 +63,11 @@ footer{
 }
 
 .social-links{
+    width: 25%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .social-links a{
@@ -77,8 +88,11 @@ nav{
     color: var(--white-col);
     letter-spacing: 3px;
     font-size: 20px;
+    display: flex;
 
 }
+
+
 
 .nav-links{
     display: flex;
