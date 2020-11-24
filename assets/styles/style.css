@@ -13,6 +13,12 @@ font-family: 'Piedra', cursive;
     font-family: 'Kanit', sans-serif;
 }
 
+#logo-image{
+    max-height: 2rem;
+    max-width: 2rem;
+    background-color: transparent;
+
+}
 
 html, body {
     max-width: 100%;
