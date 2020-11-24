@@ -17,6 +17,7 @@ font-family: 'Piedra', cursive;
     max-height: 2rem;
     max-width: 2rem;
     background-color: transparent;
+    z-index: 3;
 
 }
 
