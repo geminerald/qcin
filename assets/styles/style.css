@@ -187,7 +187,7 @@ iframe{
 
 #intro-header{
     color: var(--white-col);
-    width: 100%;
+    width: 80%;
 }
 
 .about-section{
@@ -227,6 +227,11 @@ body{
     overflow-x: hidden;
 }
 
+.social-links{
+    display: flex;
+    flex-direction: column;
+}
+
     .d-ph-0{
         display: none;
     }
@@ -243,6 +248,7 @@ body{
         align-items: center;
         width: 75%;
         transform:scale(0);
+        opacity: 0;
         transition: transform 0.5s ease-in;
     }
     .nav-links li{
@@ -255,6 +261,7 @@ body{
 
 .nav-active{
     transform:scale(1);
+    opacity: 1;
 }
 
 @keyframes navLinkFade{
