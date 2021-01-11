@@ -22,11 +22,6 @@ font-family: 'Piedra', cursive;
     margin-right: 1rem;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: none;
-}
 
 :root{
     --white-col:#ffffff;
@@ -131,7 +126,6 @@ nav{
 
 h1{
     margin-top: 2rem;
-    margin-left: 10%;
     color: var(--orange-col);
 }
 
@@ -179,7 +173,7 @@ iframe{
     left:0;
     color: var(--white-col);
     transition: 2s ease-in-out;
-    width: 100%;
+    max-width: 100%;
     margin-left: 2rem;
 }
 
