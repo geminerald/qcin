@@ -211,13 +211,13 @@ iframe{
         display: none;
     }
 
-@media screen and (max-width:1068px){
+@media screen and (max-width:1600px){
     .nav-links{
         width: 50%;
     }
 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:910px){
 body{
     overflow-x: hidden;
 }
