@@ -179,7 +179,7 @@ iframe{
     color: var(--white-col);
     transition: 2s ease-in-out;
     max-width: 100%;
-    margin-left: 2rem;
+    margin: 2rem auto;
 }
 
 
@@ -187,6 +187,7 @@ iframe{
 #intro-header{
     color: var(--white-col);
     width: 80%;
+    margin: auto;
 }
 
 .about-section{
@@ -237,7 +238,6 @@ h4{
 
 iframe{
     max-width: 80%;
-    margin: 10% auto;
     height: auto;
 }
 
