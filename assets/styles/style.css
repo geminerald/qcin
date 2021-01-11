@@ -45,6 +45,11 @@ footer{
     justify-content: space-evenly;
 }
 
+.copyright p{
+    text-align: center;
+    margin: 15px 5px auto;
+}
+
 .navigation{
     display: flex;
     flex-flow: column wrap;
